@@ -1,5 +1,8 @@
 require "bundler/setup"
 require "sinatra/activerecord"
+
+require "pry"
+
 Bundler.require
 require_all 'app/models'
 
